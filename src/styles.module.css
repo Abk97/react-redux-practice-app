@@ -1,0 +1,31 @@
+.app {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 70%;
+  border: 1px solid grey;
+}
+
+.card {
+  background-color: #d3d3d3;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid black;
+}
+
+.navbar {
+  margin: 0px 10px;
+  min-height: 60px;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-bottom: 1px solid black;
+  background-color: #eaeaea;
+}
+
+.activeStyle {
+  font-weight: bold;
+  color: black;
+}

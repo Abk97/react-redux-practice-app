@@ -1,0 +1,30 @@
+.pageContainer {
+  padding: 20px;
+}
+
+.actions {
+  display: "flex";
+  gap: "12px";
+}
+
+.tableFilters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.sortableHeader {
+  display: flex;
+  column-gap: 2px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.paginationSection {
+  display: flex;
+  justify-content: center;
+}
